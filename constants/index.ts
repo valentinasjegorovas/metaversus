@@ -45,3 +45,19 @@ export const explore: Explore[] = [
     title: 'Hawkins Labs',
   },
 ];
+
+export interface GetStartedSteps {
+  text: string;
+}
+
+export const steps: GetStartedSteps[] = [
+  {
+    text: 'Find a world that suits you and you want to enter',
+  },
+  {
+    text: 'Enter the world by reading basmalah to be safe',
+  },
+  {
+    text: 'No need to beat around the bush, just stay on the gas and have fun',
+  },
+];

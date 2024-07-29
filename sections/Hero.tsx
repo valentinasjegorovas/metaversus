@@ -1,6 +1,6 @@
 const Hero = () => {
   return (
-    <section className="w-full py-[64px] tablet:py-[30px] overflow-hidden relative">
+    <section className="w-full py-[64px] tablet:py-[30px] relative">
       <div className="w-full flex flex-col justify-center items-center relative z-10">
         <h1 className="text-[144px] uppercase text-white font-bold mobile:text-[44px] tablet:text-[90px] leading-[160px] tablet:leading-[110px] mobile:leading-[60px]">
           metaverse
