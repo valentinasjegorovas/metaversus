@@ -22,18 +22,18 @@ const Card: React.FC<CardProps> = ({
       onClick={() => handleClick(id)}
     >
       {active !== id ? (
-        <h3 className="text-white font-semibold text-[30px] rotate-[-90deg] absolute bottom-28 tablet:transform-none mobile:text-[18px] tablet:bottom-[15px] tablet:left-[15px]">
+        <h3 className="text-white font-semibold text-[30px] rotate-[-90deg] absolute bottom-28 tablet:transform-none tablet:text-[18px] tablet:bottom-0 tablet:left-[15px]">
           {title}
         </h3>
       ) : (
-        <div className="flex flex-col absolute bottom-0 pb-[48px] pl-[15px] tablet:pb-[15px]">
+        <div className="flex flex-col absolute bottom-0 pb-[48px] pl-[15px] tablet:pb-0">
           <div className="w-[60px] h-[60px] rounded-[24px] bg-[rgba(255,255,255,0.25)] flex justify-center items-center mb-[16px]">
             <img src="/vr.png" className="w-1/2 h-1/2 object-contain" />
           </div>
           <p className="text-[16px] font-medium uppercase text-white mb-[24px] tablet:mb-[16px] mobile:mb-[10px]">
             enter metaverse
           </p>
-          <h3 className="text-white font-semibold text-[30px] mobile:text-[24px]">
+          <h3 className="text-white font-semibold text-[30px] tablet:text-[24px]">
             {title}
           </h3>
         </div>
