@@ -27,13 +27,13 @@ const Card: React.FC<CardProps> = ({
         </h3>
       ) : (
         <div className="flex flex-col absolute bottom-0 pb-[48px] pl-[15px] tablet:pb-0">
-          <div className="w-[60px] h-[60px] rounded-[24px] bg-[rgba(255,255,255,0.25)] flex justify-center items-center mb-[16px]">
+          <div className="w-[60px] h-[60px] rounded-[24px] bg-[rgba(255,255,255,0.25)] flex justify-center items-center mb-[16px] tablet:mb-[10px] tablet:w-[40px] tablet:h-[40px]">
             <img src="/vr.png" className="w-1/2 h-1/2 object-contain" />
           </div>
-          <p className="text-[16px] font-medium uppercase text-white mb-[24px] tablet:mb-[16px] mobile:mb-[10px]">
+          <p className="text-[16px] font-medium uppercase text-white mb-[24px] tablet:mb-[10px] tablet:text-[14px]">
             enter metaverse
           </p>
-          <h3 className="text-white font-semibold text-[30px] tablet:text-[24px]">
+          <h3 className="text-white font-semibold text-[30px] tablet:text-[22px]">
             {title}
           </h3>
         </div>
