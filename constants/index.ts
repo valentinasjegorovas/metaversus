@@ -107,3 +107,36 @@ export const insight: Insight[] = [
       'Quam quisque id diam vel quam elementum. Viverra nam libero justo laoreet sit amet cursus sit. Mauris in aliquam sem',
   },
 ];
+
+export interface Founder {
+  title: string;
+  subtitle: string;
+  text: string;
+}
+
+export const founder: Founder[] = [
+  {
+    title: 'Samantha',
+    subtitle: 'Founder Metaversus',
+    text: "'With the development of today's technology, metaverse is very useful for today's work, or can be called web 3.0. by using metaverse you can use it as anything'",
+  },
+];
+
+export interface Socials {
+  icon: string;
+}
+
+export const socials: Socials[] = [
+  {
+    icon: 'twitter.svg',
+  },
+  {
+    icon: 'linkedin.svg',
+  },
+  {
+    icon: 'instagram.svg',
+  },
+  {
+    icon: 'facebook.svg',
+  },
+];

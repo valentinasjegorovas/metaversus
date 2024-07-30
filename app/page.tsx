@@ -5,6 +5,8 @@ import GetStarted from '@/sections/GetStarted';
 import WhatIsNew from '@/sections/WhatIsNew';
 import World from '@/sections/World';
 import Insight from '@/sections/Insight';
+import Founder from '@/sections/Founder';
+import Footer from '@/components/Footer';
 
 export default function Home() {
   return (
@@ -21,7 +23,12 @@ export default function Home() {
         <WhatIsNew />
       </div>
       <World />
-      <Insight />
+      <div className="relative">
+        <Insight />
+        <div className="gradient-04 z-0" />
+        <Founder />
+      </div>
+      <Footer />
     </div>
   );
 }

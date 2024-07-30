@@ -21,7 +21,7 @@ const Explore = () => {
         }
         style="text-center"
       />
-      <div className="flex w-full flex-row gap-5 mt-[50px] min-h-[100vh] tablet:flex-col">
+      <div className="flex w-full flex-row gap-5 mt-[50px] min-h-[600px] tablet:flex-col">
         {explore.map((item) => (
           <Card
             key={item.id}

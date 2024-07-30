@@ -13,6 +13,7 @@ const config: Config = {
         white: '#fff',
         grey: '#c7c7c7',
         lightgrey: '#B0B0B0',
+        bordergrey: '#6A6A6A',
       },
       screens: {
         tablet: {
