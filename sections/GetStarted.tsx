@@ -9,7 +9,7 @@ const GetStarted = () => {
       <img
         src="/get-started.png"
         alt="get-started"
-        className="object-contain flex-1 w-[50%] tablet:w-[100%]"
+        className="object-contain flex-1 w-[50%] tablet:w-[70%]"
       />
       <div className="flex-[0.75] flex flex-col">
         <Subtitle text="| How Metaversus Works" style="text-left" />
@@ -25,6 +25,7 @@ const GetStarted = () => {
         <div className="flex flex-col gap-[24px] mt-[24px] max-w-[370px]">
           {steps.map((step, index) => (
             <Step
+              key={index}
               {...step}
               index={index < 10 ? `0${index + 1}` : `${index + 1}`}
             />
